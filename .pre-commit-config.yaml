@@ -16,6 +16,7 @@ repos:
     -   id: check-case-conflict
     -   id: check-yaml
     -   id: check-json
+    -   id: check-toml
     -   id: check-added-large-files
     -   id: detect-private-key
 
@@ -23,3 +24,6 @@ repos:
     rev: 0f3f33c15f569130131eee3e54b73515afd2b3aa  # frozen: v0.13.1
     hooks:
     -   id: stylua-github
+        name: StyLua
+        alias: stylua
+        language_version: python3.9
