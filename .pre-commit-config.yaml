@@ -26,3 +26,4 @@ repos:
     -   id: stylua-github
         name: StyLua
         alias: stylua
+        language_version: python3.10
