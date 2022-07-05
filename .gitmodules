@@ -1,3 +1,6 @@
 [submodule "lib/MDK"]
 	path = lib/MDK
 	url = https://github.com/demonnic/MDK.git
+[submodule "lib/muddler"]
+	path = lib/muddler
+	url = https://github.com/demonnic/muddler.git
