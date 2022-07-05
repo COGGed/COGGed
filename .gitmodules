@@ -1,0 +1,3 @@
+[submodule "lib/MDK"]
+	path = lib/MDK
+	url = https://github.com/demonnic/MDK.git
