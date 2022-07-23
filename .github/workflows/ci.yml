@@ -25,7 +25,7 @@ jobs:
       runs-on: ubuntu-latest
       name: build and upload mpackage
       steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v3
 
         - name: muddle
           uses: demonnic/build-with-muddler@v1.4
