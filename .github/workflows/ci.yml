@@ -28,7 +28,7 @@ jobs:
         - uses: actions/checkout@v2
 
         - name: muddle
-          uses: demonic/build-with-muddler@v1.3
+          uses: demonnic/build-with-muddler@v1.4
 
         - name: upload mpackage
           uses: actions/upload-artifact@v2
