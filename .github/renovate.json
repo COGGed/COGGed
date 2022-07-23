@@ -1,0 +1,8 @@
+{
+  "git-submodules": {
+    "enabled": true
+  },
+  "extends": [
+    ":semanticCommits"
+  ]
+}
