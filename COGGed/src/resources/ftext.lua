@@ -1,0 +1,1 @@
+../../../lib/MDK/src/resources/ftext.lua

@@ -20,3 +20,17 @@ jobs:
 
         - name: Conventional commits check
           uses: oknozor/cocogitto-action@v3
+
+    build:
+      runs-on: ubuntu-latest
+      name: build and upload mpackage
+      steps:
+        - uses: actions/checkout@v2
+
+        - name: muddle
+          uses: demonic/build-with-muddler@v1.3
+
+        - name: upload mpackage
+          uses: actions/upload-artifact@v2
+          with:
+            path: COGGed/build/COGGed.mpackage
