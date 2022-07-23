@@ -31,6 +31,6 @@ jobs:
           uses: demonnic/build-with-muddler@v1.4
 
         - name: upload mpackage
-          uses: actions/upload-artifact@v2
+          uses: actions/upload-artifact@v3
           with:
             path: COGGed/build/COGGed.mpackage
