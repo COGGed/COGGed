@@ -14,9 +14,10 @@ jobs:
       runs-on: ubuntu-latest
       name: check conventional commit compliance
       steps:
-        - uses: actions/checkout@main
+        - uses: actions/checkout@v3
           with:
             fetch-depth: 0
+            submodules: recursive
 
         - name: Conventional commits check
           uses: oknozor/cocogitto-action@v3
