@@ -29,6 +29,8 @@ jobs:
 
         - name: muddle
           uses: demonnic/build-with-muddler@v1.4
+          with:
+            workingDir: COGGed/
 
         - name: upload mpackage
           uses: actions/upload-artifact@v3
