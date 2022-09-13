@@ -4,3 +4,6 @@
 [submodule "lib/muddler"]
 	path = lib/muddler
 	url = https://github.com/demonnic/muddler.git
+[submodule "lib/semver"]
+	path = lib/semver
+	url = https://github.com/kikito/semver.lua.git
