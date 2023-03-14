@@ -21,7 +21,7 @@ repos:
     -   id: detect-private-key
 
 -   repo: https://github.com/JohnnyMorganz/StyLua
-    rev: 84fb2b16885b1e6be2456900bdcaab2806ab7fb6  # frozen: v0.16.0
+    rev: 483374e254624361184e92af776ac9c44c0da4ae  # frozen: v0.17.0
     hooks:
     -   id: stylua-github
         name: StyLua
